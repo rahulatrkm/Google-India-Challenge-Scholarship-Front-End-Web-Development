@@ -1,0 +1,20 @@
+/* add your CSS here */
+img{
+    width: 300px;
+    border: 1px solid#000;
+}
+#fact{
+    font-style: italic;
+}
+span{
+    font-weight: bold;
+}
+ul{
+    list-style-type: none;
+}
+#info{
+    border: 1px solid#000;
+}
+h3{
+    padding: 1em;
+}
