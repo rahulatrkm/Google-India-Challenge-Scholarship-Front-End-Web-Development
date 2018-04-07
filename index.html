@@ -1,28 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Pixel Art Maker!</title>
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <title>
+        Pixel Art Maker!
+    </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Algerian">
     <link rel="stylesheet" href="styles.css">
+    <!-- TODO: add jQuery to it -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 </head>
 <body>
-    <h1>Lab: Pixel Art Maker</h1>
+    <div id="pablo">
+        <h1>Lab: Pixel Art Maker</h1>
+        <cite id="developer">
+            created with <span>&hearts;</span> by Rahul
+        </cite>
 
-    <h2>Choose Grid Size</h2>
-    <form id="sizePicker">
-        Grid Height:
-        <input type="number" id="inputHeight" name="height" min="1" value="1">
-        Grid Width:
-        <input type="number" id="inputWeight" name="width" min="1" value="1">
-        <input type="submit">
-    </form>
-
-    <h2>Pick A Color</h2>
-    <input type="color" id="colorPicker">
-
-    <h2>Design Canvas</h2>
-    <table id="pixelCanvas"></table>
+        <h2>Choose Grid Size</h2>
+        <form>
+            <p class="sizePicker">
+                Grid Height:
+                <input type="number" id="inputHeight" name="height" min="1" value="1" class="shadow">
+                Grid Width:
+                <input type="number" id="inputWeight" name="width" min="1" value="1" class="shadow">
+                <input type="submit" class="shadow">
+            </p>
+        </form>
+        
+        <h2>Pick A Color</h2>
+        <input type="color" id="colorPicker" class="shadow">
+        
+        <h2>Design Canvas</h2>
+        <p>
+            Double click to erase the pixel
+        </p>
+    </div>
+    
+    <div id="grid">
+        <img src="http://wallpoper.com/images/00/28/18/38/abstract-black_00281838.jpg" alt="temporary backround">
+        <table id="pixelCanvas"></table>
+    </div>
 
     <script src="designs.js"></script>
 </body>
