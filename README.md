@@ -13,4 +13,4 @@ For specific, detailed instructions, look at the project instructions in the [Ud
 
 ## Contributing
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+This repository was the starter code for _all_ Udacity students. And further modified to implement the various functionality in the project. Any further improvement is acceptable.
